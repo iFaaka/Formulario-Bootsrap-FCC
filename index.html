@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+
+    <body> 
+
+        <div id="main"> 
+        
+        <div class="titulos">  
+          <h1 id="title">  Formulario de inscripcion  </h1>
+          <p id="description"> ¡Dejanos tus datos para poder contactarte y brindarte mayor informacion! <p/>
+        </div>
+          <div id="formulario">
+          
+            
+            <form id="survey-form">
+            <label for="name" id="name-label">Nombre <br>
+            <input class="large-input" type="text" id="name" placeholder=" Por favor ingrese su nombre" required>
+            </label>
+            <br>
+             <label for="email" id="email-label" >Email <br>
+               <input type="email" class="large-input" id="email" placeholder=" Por favor ingrese su correo electronico" required>
+            </label>
+            <br>
+             <label for="number"  id="number-label">Edad (opcional)<br>
+               <input type="number" class="large-input" id="number" placeholder=" Por favor ingrese su edad" min="13" max="99">
+            </label>
+            <br>
+            
+            <label for="level-study"> ¿Cual es tu nivel de estudio alcanzado? <br> 
+            <select name="level-study" id="dropdown">
+              <option value="Primaria incompleta"> Primaria incompleta </option>
+              <option value="Primaria completa"> Primaria completa </option>
+              <option value="Secundario incompleto"> Secundario incompleto </option>
+              <option value="Secundario completo"> Secundario completo</option>
+              <option value="Universitario incompleto"> Universitario incompleto</option>
+              <option value="Universitario completo"> Universitario completo </option>
+            </select>
+            </label>
+              
+            <br>
+            <label>¿Recomendarias nuestros cursos? </label>
+            <br>
+           <div class="radio"> <label for="definitivamente"><input type="radio" name="recomendarias" value="si"> Definitivamente </label><br>  
+            <label for="definitivamente"><input type="radio" name="recomendarias" value="probable"> Es probable </label> <br>            
+            <label for="definitivamente"><input type="radio" name="recomendarias" value="no"> No lo creo </label><br>  
+              </div>
+            <label for="favorite-element"> ¿Cual es tu elemento favorito de nuestra academia? <br>
+              
+              <select>      
+                      <option value="independencia">Independencia horaria </option>   
+                      <option value="disponibilidad">Disponibilidad de clases </option>   
+                      <option value="apoyo">Apoyo de comisiones </option>   
+                      <option value="disposicion">Disposicion del personal </option>   
+                
+                </select></label><br>
+            
+            <label> ¿Que temas te interesan aprender o profundizar en nuestra academia? <br>
+         <div class="checkbox">   
+            <input type="checkbox" value="matematica"><label> Matematica</label><br>
+            <input type="checkbox" value="logica"><label> Logica</label><br>
+            <input type="checkbox" value="literatura"><label> Literatura</label><br>
+            <input type="checkbox" value="geografia"><label> Geografia</label><br>
+              
+            </label>
+              </div>
+            <label for="textarea">¿Quieres hacer algun comentario o consulta adicional sobre nuestra academia?</label> <br>
+            <textarea id="textarea" placeholder="Enter your comment here..."> </textarea><br>
+            
+            <input type="submit" value="Enviar" id="submit" >
+            
+                
+              
+                
+           
+            
+            
+            
+          
+          
+          </form>
+          
+          </div>
+        
+        
+        
+        
+        
+        
+        
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     
+</body>
+</html>
